@@ -1,0 +1,23 @@
+{
+  "name": "src-gatsby",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "npm run develop",
+    "serve": "gatsby serve",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "gatsby": "^2.27.3",
+    "gatsby-plugin-typescript": "^2.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
